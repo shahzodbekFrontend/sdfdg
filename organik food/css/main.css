@@ -1,0 +1,279 @@
+
+/* GLOBAL STYLE */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: dashed #263238 1px;
+}
+body {
+    font-family: 'DM Sans','Rosario', 'Arial' sans-serif;
+    font-family: 'Rosario', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* CONTAINER STYLE  */
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding:0 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    padding: 50px 0 140px 0;
+    background: #FFFFFF;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+}
+.header_list {
+    display: flex;
+}
+.header_list_item {
+    list-style: none;
+}
+.header_list_item:not(:last-child) {
+    margin-right: 40px;
+}
+.header_list_item_link {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+}
+.header_img {
+    width: 56px;
+    height: 56px;
+}
+.icon_btn_link {
+    text-decoration: none;
+    background: #F3FBF8;
+    margin-right: 38px;
+    border-radius:50%;
+}
+.icon_img {
+    width: 18px;
+    height: 18px;
+}
+.header_list_link {
+    text-decoration: none;
+    padding: 10px 23px;
+    background: #09A66D;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.header_naw {
+    background-image: url(../img/png/fresh-melientha-suavis-pierre-leaves-white-surface_51524-12145-removebg-preview\ 1.png);
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+    padding: 93px 0 35px 0;
+    background-color: #F3FBF8;
+}
+.header_naw_matn {
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header_naw_matn_title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.header_naw_matn_text {
+    width: 637.01px;
+    height: 90px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.header_naw_matn_link {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222222;
+    position: relative;
+}
+.header_naw_matn_link img {
+    margin-left: 20px;
+}
+.arrow_img {
+    position: absolute;
+    right: 322px;
+    top: 24px;
+}
+.header_naw_style {
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_naw_style img {
+    width: 862.18px;
+    height: 465.52px;
+}
+.header_naw_style_list {
+    list-style: none;
+}
+.header_naw_style_list_item {
+    width: 250px;
+    height: 116px;
+    padding: 17px 46px 17px 33px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+.header_naw_style_list_item_img {
+    width: 32px !important;
+    height: 32px !important;
+    margin-right: 24px;
+}
+.text {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+.title {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+.main {
+    background-image:url(../img/png/Vector\ 16.png);
+    background-position-x: 560px;
+    background-position-y: -200px;
+    background-repeat:no-repeat;
+    padding-bottom: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_left_part1 {
+    width: 671px;
+}
+.main_left_part1_title {
+    margin-bottom: 20px;
+    font-family: 'Rosario';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.main_left_part1_text {
+    width: 500px;
+    margin-bottom: 57px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.main_left_list {
+    list-style: none;
+}
+.main_left_list_item {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.main_left_list_item_img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    background: #F3FBF8;
+    border-radius: 50%;
+}
+.main_left_list_item_riht_title {
+    width: 225px;
+    margin-bottom: 8px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+}
+.main_left_list_item_riht_text {
+    width: 277.45px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.main_left_img{
+    margin-left: 130px;
+}
+.main_right {
+    position: relative;
+}
+.main_right_img1 {
+    width: 420px;
+    height: 420px;
+    display: flex;
+    margin-top: 150px;
+}
+.main_right_img2 {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.main_right_img3 {
+    position: absolute;
+    top: 200px;
+    right: 44px;
+}
+.main_right_img4 {
+    position: absolute;
+    top: 50px;
+    right: -90px;
+}
+.main_right_img5 {
+    width: 371.85px;
+    height: 411.14px;
+    position: absolute;
+    top: 90px;
+    right: 15px;
+}
